@@ -51,6 +51,11 @@ namespace AddapterPattern
         {
             return coresNum;
         }
+        public override string ToString()
+        {
+            return $"\nВидеопамять: {gpuGb} ГБ\nМесто на диске: {HDDGb} ГБ\nОперативная память: {RAMGb} ГБ\n" +
+                $"Частота процессора: {cpuGhz} ГГц\nКоличество ядер: {coresNum}";
+        }
     }
 
 }

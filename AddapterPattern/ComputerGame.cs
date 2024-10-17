@@ -80,5 +80,7 @@ namespace AddapterPattern
         {
             return coreSpeedInGhz;
         }
+
+       
     }
 }
